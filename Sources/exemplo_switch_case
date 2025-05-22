@@ -1,0 +1,14 @@
+print("Digite um número de 1 a 3: ")
+let opcaoTexto = readLine()!
+let opcao = Int(opcaoTexto)!
+
+switch opcao {
+case 1:
+    print("Você escolheu opção 1")
+case 2:
+    print("Você escolheu opção 2")
+case 3:
+    print("Você escolheu opção 3")
+default:
+    print("Opção inválida")
+}
