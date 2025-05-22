@@ -1,0 +1,19 @@
+print("Qual a sua idade?")
+let idade = Int(readLine()!)!
+print("Qual a sua altura?")
+let altura = Double(readLine()!)!
+
+if idade >= 12 && altura >= 1.40 {
+    print("Entrada permitida")
+    }
+else {
+    print("Está acompanhado de um responsável?")
+    let acompanhado = readLine()!.lowercased()
+    
+    if acompanhado == "sim" || acompanhado == "s" {
+        print("Entrada permitida")
+    }
+    else {
+        print("Entrada não permitida")
+    }
+}
