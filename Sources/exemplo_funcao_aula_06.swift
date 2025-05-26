@@ -1,3 +1,6 @@
+\\Exemplo de função
+\\Função para fazer o dobro de um valor 
+
 func dobro(numero: Int) -> Int {
     return(numero * 2)
 }
