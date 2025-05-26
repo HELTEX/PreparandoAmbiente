@@ -1,13 +1,12 @@
-\\Exemplo de função
-\\Função para fazer o dobro de um valor 
+//Exemplo de função
+//Função para fazer o dobro de um valor 
 
 func dobro(numero: Int) -> Int {
     return(numero * 2)
 }
 
 print("Digite um número: ")
-let entrada = readLine()!
-let valor = Int(entrada)!
+let valor = Int(readLine()!)!
 
 let resultado = dobro(numero: valor)
 print("O dobro de \(valor) é \(resultado)")
