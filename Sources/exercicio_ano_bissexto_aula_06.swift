@@ -12,4 +12,4 @@ print("Digite o ano: ")
 let valor = Int(readLine()!)!                //lê um valor e atribui a uma variavel chamada valor
  
 let resultado = bissexto(ano: valor)         //cria uma variável resultado que vai chamar a função, e passar o valor armazenado na variável valor lida, que vai ocupar o lugar do número na função
-print(resultado)                             //imprime o retorno 
+resultado ? print("É bissexto") : print("Não é bissexto")   //operador ternário
